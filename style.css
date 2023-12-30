@@ -394,6 +394,7 @@ nav .nav-bar .logo a {
 .cards-section {
     flex: 1 1 50%;
     display: flex;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -401,7 +402,7 @@ nav .nav-bar .logo a {
     width: 45%;
     /* Card styling */
     display: flex;
-    height: 300px;
+    height: 40px;
 }
 
 .card1 {
@@ -413,12 +414,12 @@ nav .nav-bar .logo a {
     padding-bottom: 29px;
     padding-top: 0px;
     align-self: flex-end;
-    height: 329px;
+    height: 29px;
 }
 
 .card3 {
     padding-top: 34px;
-    height: 334px;
+    height: 34px;
 }
 
 .card4 {

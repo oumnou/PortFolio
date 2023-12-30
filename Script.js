@@ -7,6 +7,7 @@ const body = document.querySelector("body"),
 // js code to toggle sidebar
 sidebarOpen.addEventListener("click" , () =>{
     nav.classList.add("active");
+    console.log("active")
 });
 
 sidebarClose.addEventListener("click" , () =>{
@@ -21,19 +22,28 @@ body.addEventListener("click" , e =>{
     }
 });
 function checkScreenSize() {
+    const cardsContainer = document.querySelector('.card');
     const leftSection = document.getElementById("leftSection");
     const rightSection = document.getElementById("rightSection");
     const leftSection2 = document.getElementById("leftSection2");
     const rightSection2 = document.getElementById("rightSection2");
+    
+    
     if (window.innerWidth < 768) {
+        
+        console.log("moins")
+        cardsContainer.style.flexDirection = 'column'; // Stack cards vertically
+
         leftSection.parentNode.insertBefore(rightSection, leftSection);
         leftSection2.parentNode.insertBefore(rightSection2, leftSection2);
     } else {
+        cardsContainer.style.flexDirection = 'row'; // Align cards horizontally
+
         leftSection.parentNode.insertBefore(leftSection, rightSection);
         leftSection2.parentNode.insertBefore(leftSection2, rightSection2);
     }
 }
 
 
-// window.addEventListener("resize", checkScreenSize);
-// checkScreenSize();
+ window.addEventListener("resize", checkScreenSize);
+checkScreenSize();

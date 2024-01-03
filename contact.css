@@ -137,7 +137,7 @@
 
         .email-div,
         .phone-div {
-            flex: 1;
+            flex:21;
         }
 
         .email-div p,
@@ -213,14 +213,7 @@
             list-style: none;
         }
         
-        .nav-links li a {
-            position: relative;
-            font-size: 17px;
-            font-weight: 400;
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-        }
+     
         
         .nav-links li a::before {
             content: '';
@@ -243,7 +236,6 @@
         .conbtn {
             font-size: 18px;
             font-weight: 500;
-            color: #25262a;
             background-color: #813055;
             /* background-image: (91deg,var(#ffaf29) 0%,var(#fecd1a) 100%); */
             color: #ffffff;
@@ -335,15 +327,12 @@
             }
         }
 
-        
-        .nav-links li a{
-            background-color: #b0a7be;
-
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 18px;
-            color: #000000;
-            border-radius: 5px;
+        .nav-links li a {
+            position: relative;
+            font-size: 17px;
+            font-weight: 400;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
         }
-        
         

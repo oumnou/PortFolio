@@ -24,12 +24,7 @@
 body {
     height: 100vh;
     background-color:var(--body-color);
-   /* background-image: url('bg/gradient2.jpeg');
-    background-size: cover; Adjust as needed 
-    background-position: center; /* Adjust as needed 
-    background-repeat: no-repeat;
-    margin: 0; /* Remove default margin 
-    font-family: Arial, sans-serif;*/ }
+ }
 
 body.dark {
     --body-color: #18191A;
@@ -126,16 +121,13 @@ nav .nav-bar .logo a {
 #conbtn {
     font-size: 18px;
     font-weight: 500;
-    color: #25262a;
     background-color: #b0a7be;
-    /* background-image: (91deg,var(#ffaf29) 0%,var(#fecd1a) 100%); */
-    color: #25262a;
+    color: #ffffff;
     border-radius: 1em;
     font-size: 17px;
     padding: 1em 2em;
     cursor: pointer;
-    /* transition: all 0.3s ease-in-out; */
-    /* border: 1px solid black; */
+   
     box-shadow: 0 0 0 0 black;
     text-decoration: none;
 
@@ -145,7 +137,7 @@ nav .nav-bar .logo a {
 
 #conbtn:active {
     transform: translateY(2px) translateX(1px);
-    box-shadow: 0 0 0 0 black;
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
 }
 
 ;
@@ -219,7 +211,6 @@ nav .nav-bar .logo a {
 
 /* header-section */
 
-/* Your existing CSS code for the navbar goes here */
 
 .header-section {
     display: flex;
@@ -227,6 +218,8 @@ nav .nav-bar .logo a {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+
+
 }
 
 .left-section img {
@@ -271,6 +264,7 @@ nav .nav-bar .logo a {
     font-size: 16px;
     color: #813055;
     margin-bottom: 30px;
+    margin-right: 50px;
 }
 
 .contact-button a {
@@ -738,3 +732,12 @@ span.text {
     justify-content: space-between;
     width: 24%;
 }
+
+.cadre{
+
+    margin-bottom: 33px;
+    border: 2px solid #aa8c9a ;
+
+
+}
+
